@@ -1,0 +1,6 @@
+# Visual Studio / .NET generated artifacts
+.vs/
+**/bin/
+**/obj/
+*.csproj.user
+*.suo
