@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lockRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#dfacac"
+    android:padding="24dp">
+
+	<TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DayHop"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="48sp" />
+
+	<TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Swipe up to start"
+        android:textColor="#FFFFFF"
+        android:alpha="0.85"
+        android:textSize="16sp" />
+
+</LinearLayout>
