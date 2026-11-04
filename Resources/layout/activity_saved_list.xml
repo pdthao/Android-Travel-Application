@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+	android:background="#FFF0F0">
+
+	<!-- Title -->
+	<TextView
+        android:id="@+id/tvSavedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved List"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+	<!-- List fills remaining space -->
+	<ListView
+        android:id="@+id/lvSaved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+	<!-- Back button stays at bottom -->
+	<Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>
